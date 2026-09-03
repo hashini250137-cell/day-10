@@ -1,0 +1,10 @@
+history = ["google.com", "openai.com", "github.com"]
+
+print("Last visited (popped):", history.pop())
+print("Last visited (popped):", history.pop())
+
+jobs = (["Document1.pdf", "Document2.pdf", "Document3.pdf"])
+
+print("Printing Jobs:")
+while jobs:
+    print("Printed:", jobs.pop(0))
